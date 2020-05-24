@@ -2,29 +2,39 @@ import React from 'react';
 import Header from "../src/components/Header";
 import Body from "../src/components/Body";
 import Typical from "react-typical";
+import { StylesProvider } from '@material-ui/core';
+import Styles from "./components/Image.module.css";
 
 function App() {
   return (
     <div>
       <Header/>
-      <h1>My name is Luis  </h1>
-      <p>and I am a{' '}
+      <div className={Styles.body}>
+        <span>
+      <h1>My name is Luis</h1> 
+      
+      <p>and I am a {" "}
         <Typical
         loop={Infinity}
         wrapper="b"
         steps={[
           'Developer 💻 ',
           1000,
-          " un Crack 💊",
+          "Fast learner ⚡💡",
           1000,
-          "un Minetito Hermosho 🐈😻",
+          "Code Wizard 🧙‍♂️",
           1000,
-          "el esposho de mi vinetita hermoshaaa 💘"
+          "Cat owner 🐈🐱‍👤"
         ]}
         />
-      </p>
+        </p>
+        </span>
+        
+      
+      </div>
+      
       <Body/>
-    </div>
+      </div>
   );
 }
 

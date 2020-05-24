@@ -8,3 +8,10 @@
         display: none;
     }
 }
+.body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+}
