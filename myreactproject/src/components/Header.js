@@ -18,6 +18,7 @@ const NavHeader = styled.div`
 const NavLeft = styled.div`
   width: 33.333%;
   text-align: left;
+  font-family: American;
 `
 const NavCenter = styled.div`
   width: 33.333%;
