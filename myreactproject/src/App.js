@@ -17,6 +17,10 @@ function App() {
           1000,
           " un Crack 💊",
           1000,
+          "un Minetito Hermosho 🐈😻",
+          1000,
+          "el esposho de mi vinetita hermoshaaaaa 💘😍",
+          1000
         ]}
         />
       </p>
