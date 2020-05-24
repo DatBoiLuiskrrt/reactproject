@@ -7,8 +7,10 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 const Nav = styled.div`
   background-color: #fff;
   border-bottom: 1px solid rgba(0,0,0,.0975);
-  @media (max-width: 500px) {
+  @media (max-width: 1050px) {
     background: linear-gradient(to right, #2193b0, #6dd5ed);
+    width: 100vw;
+    
   }
 `
 const NavHeader = styled.div`
@@ -21,25 +23,28 @@ const NavHeader = styled.div`
   display: flex;
   align-items: center;
   margin: 0 auto;
-  @media (max-width: 500px) {
+  
+  @media (max-width: 1050px) {
     flex-direction: column;
-    // border: 1px dotted black;
-    width: 100%;
+    // border: 1px dotted red;
+    width: fit-content;
+    
   }
 `
 const NavLeft = styled.div`
   width: 33.333%;
   text-align: left;
-  font-family: American;
-  @media (max-width: 500px) {
+  font-family: 'Chelsea Market', cursive;
+  @media (max-width: 1050px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left:0px;
     margin-left: 0px;
+    width: fit-content;
+    // border: 1px solid black;
     
-    width:100%;
   }
 `
 const NavRight = styled.div`
@@ -48,16 +53,24 @@ const NavRight = styled.div`
   svg {
     margin-right: 20px;
   }
+  @media (max-width: 1050px) {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    // border: 1px solid black;
+  }
 
 `
 const MenuLink = styled.a`
 text-decoration: none;
-@media (max-width: 500px) {
+font-family: 'Chelsea Market', cursive;
+@media (max-width: 1050px) {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
+  
   
 }
 `

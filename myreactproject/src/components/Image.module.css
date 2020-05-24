@@ -14,5 +14,7 @@
   flex-wrap: wrap;
   align-items: center;
   background: linear-gradient(to right, #ece9e6, #ffffff);
+  
+  /* border: 1px solid black; */
 }
 
