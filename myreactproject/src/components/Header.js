@@ -1,5 +1,7 @@
 import React from "react";
 import styled from 'styled-components'
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Nav = styled.div`
   background-color: #fff;
@@ -62,12 +64,13 @@ function Header () {
 
         <NavRight>
 
-          <MenuLink href="#">
-            
+          <MenuLink href="https://www.linkedin.com/in/datboiluiskrrt/" target="_blank">
+            <LinkedInIcon/>
           </MenuLink>
 
-          <MenuLink href="#">
-            
+          <MenuLink href="https://github.com/DatBoiLuiskrrt"
+          target="_blank">
+            <GitHubIcon/>
           </MenuLink>
 
           <MenuLink href="#">
