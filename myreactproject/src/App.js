@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Header/>
-      <h1>hello </h1>
-      <p>Soy Luis y soy{' '}
+      <h1>My name is Luis  </h1>
+      <p>and I am a{' '}
         <Typical
         loop={Infinity}
         wrapper="b"
@@ -19,8 +19,7 @@ function App() {
           1000,
           "un Minetito Hermosho 🐈😻",
           1000,
-          "el esposho de mi vinetita hermoshaaaaa 💘😍",
-          1000
+          "el esposho de mi vinetita hermoshaaa 💘"
         ]}
         />
       </p>
