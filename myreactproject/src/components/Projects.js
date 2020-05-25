@@ -1,11 +1,16 @@
 import React from "react";
 import Styles from "./Image.module.css";
+import {
+    Card, CardImg, CardText, CardBody,
+    CardTitle, CardSubtitle, Button
+  } from 'reactstrap';
 
 function Projects() {
     return (
     <div>
-        <h1>Projects</h1>
-        <p>This are my projects</p>
+        <h1  >Projects</h1>
+      
+        
     </div>
     )
 };
