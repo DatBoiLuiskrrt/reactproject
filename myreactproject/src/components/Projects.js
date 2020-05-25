@@ -5,7 +5,7 @@ import profilePicture from "../Images/optimizedProfilePicture.jpg";
 function Projects() {
     return (
     <div className={Styles.intro}>
-        <span>
+        <span className={Styles.pad}>
         <img src={profilePicture} className={Styles.profilePicture} alt="profile picture"/>
         </span>
        

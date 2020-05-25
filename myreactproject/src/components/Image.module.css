@@ -24,7 +24,8 @@
     border-radius: 60%;
     width: fit-content;
     /* position: absolute; */
-    max-width: 400px;
+    max-width: 300px;
+    border: 2px solid black;
 }
 .intro {
     display: flex;
@@ -33,8 +34,8 @@
     align-items: center;
     padding: 30px;
     margin: 0px;
-    border: 1px dotted black;
-    /* width: fit-content; */
+    /* border: 1px dotted black; */
+    
     background: linear-gradient(to right, #ece9e6, #ffffff);
     /* border: 1px dotted red; */
     
@@ -45,6 +46,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: fit-content;
+    margin:0px;
+    padding: 20px;
     /* border: 1px solid black; */
     }
+}
+.pad {
+    display: flex;
+    padding: 15px;
 }
