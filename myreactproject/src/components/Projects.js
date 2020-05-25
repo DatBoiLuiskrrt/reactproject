@@ -4,35 +4,45 @@ import {
     CardTitle, CardSubtitle
   } from 'reactstrap';
   import GitHubIcon from '@material-ui/icons/GitHub';
+  import YouTubeIcon from '@material-ui/icons/YouTube';
+import { StylesProvider } from "@material-ui/core";
+import Styles from "../components/Image.module.css";
+import Covid from "../Images/covidOptimized.PNG";
 
 function Projects() {
     return (
         <div>
-        <Card>
+        <Card className={Styles.cards}>
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardTitle>Recipe Book</CardTitle>
+          <CardSubtitle>React</CardSubtitle>
         </CardBody>
         <img width="100%" src="/assets/318x180.svg" alt="Card image cap" />
         <CardBody>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <CardLink href="#">Card Link</CardLink>
-          
+          <CardText>In this project I used useState and useEffect hooks to retrieve data from and API that gets recipes based on a ingredient that the user types into the search bar.</CardText>
           <CardLink href="#">
-          <GitHubIcon />
+              <YouTubeIcon color="secondary"/>
+          </CardLink>
+          <CardLink href="#">
+          <GitHubIcon color="primary" />
           </CardLink>
         </CardBody>
       </Card>
+
       <Card>
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardTitle>Covid-19</CardTitle>
+          <CardSubtitle>I'm so humble</CardSubtitle>
         </CardBody>
-        <img width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <CardImg  src={Covid} alt="Card image cap" />
         <CardBody>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <CardLink href="#">Card Link</CardLink>
-          <CardLink href="#">Another Link</CardLink>
+          <CardText>In this project I created a COVID-19 tracker that fetched data from (https://covid19.mathdro.id/api).</CardText>
+          <CardLink href="#">
+          <YouTubeIcon color="secondary"/>
+          </CardLink>
+          <CardLink href="#">
+          <GitHubIcon color="primary" />
+          </CardLink>
         </CardBody>
       </Card>
         </div>

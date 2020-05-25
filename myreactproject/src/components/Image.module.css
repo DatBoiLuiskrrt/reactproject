@@ -56,3 +56,6 @@
     display: flex;
     padding: 15px;
 }
+.card {
+    width: 20rem;
+}

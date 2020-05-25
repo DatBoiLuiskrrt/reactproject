@@ -69,8 +69,6 @@ font-family: 'Chelsea Market', cursive;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  
-  
 }
 `
 
@@ -86,14 +84,14 @@ function Header () {
         <NavRight>
           
           <MenuLink href="https://www.linkedin.com/in/datboiluiskrrt/" target="_blank">
-            <LinkedInIcon/>
+            <LinkedInIcon color="primary"/>
           </MenuLink>
           
           
 
           <MenuLink href="https://github.com/DatBoiLuiskrrt"
           target="_blank">
-            <GitHubIcon/>
+            <GitHubIcon color="primary"/>
           </MenuLink>
 
           <MenuLink href="#">
