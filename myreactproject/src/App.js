@@ -2,8 +2,8 @@ import React from 'react';
 import Header from "../src/components/Header";
 import Body from "../src/components/Body";
 import Typical from "react-typical";
-import { StylesProvider } from '@material-ui/core';
 import Styles from "./components/Image.module.css";
+import Projects from "../src/components/Projects";
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
       
       </div>
       <Body/>
+      <Projects/>
       </div>
   );
 }
