@@ -17,4 +17,34 @@
   
   /* border: 1px solid black; */
 }
-
+.profilePicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    width: fit-content;
+    /* position: absolute; */
+    max-width: 400px;
+}
+.intro {
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 0px;
+    border: 1px dotted black;
+    /* width: fit-content; */
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    /* border: 1px dotted red; */
+    
+}
+@media (max-width: 900px) {
+    .intro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    }
+}
