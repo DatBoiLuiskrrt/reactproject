@@ -3,7 +3,7 @@ import Header from "../src/components/Header";
 import Body from "../src/components/Body";
 import Typical from "react-typical";
 import Styles from "./components/Image.module.css";
-import Projects from "../src/components/Projects";
+import Intro from "../src/components/Intro";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
       
       </div>
       <Body/>
-      <Projects/>
+      <Intro/>
       </div>
   );
 }
