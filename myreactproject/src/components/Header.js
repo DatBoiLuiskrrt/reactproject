@@ -59,7 +59,6 @@ const NavRight = styled.div`
     width: fit-content;
     // border: 1px solid black;
   }
-
 `
 const MenuLink = styled.a`
 text-decoration: none;
