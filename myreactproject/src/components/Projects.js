@@ -12,6 +12,7 @@ import Covid from "../Images/covidOptimized.PNG";
 function Projects() {
     return (
         <div>
+            <h1>My Projects </h1>
         <Card className={Styles.cards}>
         <CardBody>
           <CardTitle>Recipe Book</CardTitle>
