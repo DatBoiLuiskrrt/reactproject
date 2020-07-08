@@ -1,24 +1,21 @@
 import React from "react";
+import recipes from "../Images/recipess.png";
+const Body = () => {
+  return (
+      <div>
+          <h1>Projects</h1>
+          <div>
+          <h2>Recipe App</h2>
+          <img  src={recipes}
+                alt="recipes screenshot"
+                width= "400px">
 
-import { Card, Icon, Image } from 'semantic-ui-react';
+          </img>
+          </div>
+          
+      </div>
+  )
+}
 
-const Body = () => (
-  <Card>
-    <Image src='https://react.semantic-ui.com/images/avatar/large/daniel.jpg' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>Daniel</Card.Header>
-      <Card.Meta>Joined in 2016</Card.Meta>
-      <Card.Description>
-        Daniel is a comedian living in Nashville.
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        10 Friends
-      </a>
-    </Card.Content>
-  </Card>
-)
 
 export default Body;
