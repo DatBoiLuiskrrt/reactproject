@@ -33,8 +33,9 @@ function App() {
         
       
       </div>
-      <Body/>
+      
       <Intro/>
+      <Body/>
       {/* <Projects/> */}
       </div>
   );
