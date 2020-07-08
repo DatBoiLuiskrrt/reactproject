@@ -1,5 +1,6 @@
 import React from "react";
 import recipes from "../Images/recipess.png";
+import covid from "../Images/covidOptimized.PNG";
 const Body = () => {
   return (
       <div>
@@ -11,6 +12,14 @@ const Body = () => {
                 width= "400px">
 
           </img>
+          <p>We will scale up our capacity to harness mega-holistically. We pride ourselves not only on our robust iteration and user-proof configuration is usually considered an amazing achievement. Is it 
+          </p>
+          </div>
+          <div>
+              <h1>COVID-19 Tracker</h1>
+              <img src={covid}
+                   alt="covid screenshot"
+                   width= "400px"></img>
           </div>
           
       </div>
