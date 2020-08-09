@@ -4,10 +4,17 @@ import covid from "../Images/covidOptimized.PNG";
 import MailIcon from '@material-ui/icons/Mail';
 import styled from "styled-components";
 import HomeIcon from '@material-ui/icons/Home';
+import Styles from "./Image.module.css";
 
 const Footer = styled.div`
-    display: block;
+    display: flex;
     border: 1px solid black;
+    justify-content: space-around;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: lightblue;
 `
 const Body = () => {
   return (
@@ -39,9 +46,11 @@ const Body = () => {
 
           </div>
         <Footer>
-            <MailIcon/>
             <HomeIcon/>
+            <MailIcon className={Styles.mail}/>
+            
         </Footer>
+        
         
           
       </div>
