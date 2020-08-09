@@ -1,6 +1,7 @@
 import React from "react";
 import recipes from "../Images/recipess.png";
 import covid from "../Images/covidOptimized.PNG";
+import ContactMailIcon from '@material-ui/icons/ContactMail';
 
 const Body = () => {
   return (
@@ -32,7 +33,7 @@ const Body = () => {
 
           </div>
         <div className="footer">
-            
+
         </div>
           
       </div>
