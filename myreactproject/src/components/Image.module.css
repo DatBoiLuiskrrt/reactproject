@@ -59,3 +59,7 @@
 .card {
     width: 20rem;
 }
+.footer {
+    display: block;
+    border: 1px solid black;
+}

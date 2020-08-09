@@ -1,8 +1,14 @@
 import React from "react";
 import recipes from "../Images/recipess.png";
 import covid from "../Images/covidOptimized.PNG";
-import ContactMailIcon from '@material-ui/icons/ContactMail';
+import MailIcon from '@material-ui/icons/Mail';
+import styled from "styled-components";
+import HomeIcon from '@material-ui/icons/Home';
 
+const Footer = styled.div`
+    display: block;
+    border: 1px solid black;
+`
 const Body = () => {
   return (
       <div>
@@ -32,9 +38,11 @@ const Body = () => {
           <button>I'm another button</button>
 
           </div>
-        <div className="footer">
-
-        </div>
+        <Footer>
+            <MailIcon/>
+            <HomeIcon/>
+        </Footer>
+        
           
       </div>
       
