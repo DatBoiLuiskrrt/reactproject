@@ -48,7 +48,7 @@ const Body = () => {
           </div>
         <Footer>
             <a href={"/home"}>
-             <HomeIcon/> 
+             <HomeIcon className={Styles.home}/> 
             </a>
             
             <a href={""}>
