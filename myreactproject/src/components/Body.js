@@ -5,7 +5,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import styled from "styled-components";
 import HomeIcon from '@material-ui/icons/Home';
 import Styles from "./Image.module.css";
-
+import { Link, Router } from "react-router-dom";
 
 const Footer = styled.div`
     display: flex;
@@ -47,11 +47,13 @@ const Body = () => {
 
           </div>
         <Footer>
-        
-            <HomeIcon/>
-        
-            <MailIcon className={Styles.mail}/>
+            <a href={"/home"}>
+             <HomeIcon/> 
+            </a>
             
+            <a href={""}>
+            <MailIcon className={Styles.mail}/>
+            </a>
         </Footer>
         
         
