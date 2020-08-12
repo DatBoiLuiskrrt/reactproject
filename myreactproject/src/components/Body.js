@@ -6,6 +6,7 @@ import styled from "styled-components";
 import HomeIcon from '@material-ui/icons/Home';
 import Styles from "./Image.module.css";
 
+
 const Footer = styled.div`
     display: flex;
     border: 1px solid black;
@@ -46,7 +47,9 @@ const Body = () => {
 
           </div>
         <Footer>
+        
             <HomeIcon/>
+        
             <MailIcon className={Styles.mail}/>
             
         </Footer>

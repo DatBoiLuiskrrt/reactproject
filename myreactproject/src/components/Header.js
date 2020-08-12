@@ -94,8 +94,10 @@ function Header () {
             <GitHubIcon color="primary"/>
           </MenuLink>
 
-          <MenuLink href="#">
+          <MenuLink>
+            <a href={"www.google.com"}>
             Resume
+            </a>
           </MenuLink>
           
         </NavRight>
