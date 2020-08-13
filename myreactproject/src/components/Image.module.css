@@ -69,3 +69,6 @@
 .home {
     color: black;
 }
+.projects {
+    display: grid;
+}

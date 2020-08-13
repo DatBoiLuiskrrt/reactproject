@@ -19,7 +19,7 @@ const Footer = styled.div`
 `
 const Body = () => {
   return (
-      <div>
+      <div className={Styles.projects}>
           <h1>Projects</h1>
           <div>
           <h2>Recipe App</h2>
