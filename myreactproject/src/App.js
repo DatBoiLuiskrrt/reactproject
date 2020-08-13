@@ -4,7 +4,7 @@ import Body from "../src/components/Body";
 import Typical from "react-typical";
 import Styles from "./components/Image.module.css";
 import Intro from "../src/components/Intro";
-import Projects from "../src/components/Projects";
+
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
       
       <Intro/>
       <Body/>
-      {/* <Projects/> */}
+     
       </div>
   );
 }
