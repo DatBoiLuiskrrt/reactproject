@@ -9,7 +9,9 @@ import Intro from "../src/components/Intro";
 function App() {
   return (
     <div>
+      
       <Header/>
+      <Body/>
       <div className={Styles.body}>
         <span>
       <h1>My name is Luis</h1> 
@@ -35,7 +37,7 @@ function App() {
       </div>
       
       <Intro/>
-      <Body/>
+      
      
       </div>
   );
