@@ -73,3 +73,14 @@
     display: grid;
     border: 1px solid red;
 }
+.header {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    padding: 20px 2px;
+    border: 1px solid black;
+
+}
+.home {
+    border: 1px solid black;
+    padding-left: 20px;
+}
